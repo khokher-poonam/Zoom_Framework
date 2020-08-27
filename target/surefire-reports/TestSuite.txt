@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 1, Errors: 0, Skipped: 14, Time elapsed: 12.471 s <<< FAILURE! - in TestSuite
+co.pragra.learning.fullstackqa.b15framework.testcases.TopNavBarTest.setUp  Time elapsed: 12.154 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Automation\chromedriver
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" > <!--testng schema-->
+<suite name="Selenium Framework Test Suit">
+
+    <test name="Selenium Framework TestCases">
+<classes>
+    <class name="co.pragra.learning.fullstackqa.b15framework.testcases.TopNavBarTest"></class>
+
+    <class name="co.pragra.learning.fullstackqa.b15framework.testcases.ZoomBlogTest"></class>
+    <class name="co.pragra.learning.fullstackqa.b15framework.testcases.HomePageTest"></class>
+    <class name="co.pragra.learning.fullstackqa.b15framework.testcases.ZoomLoginTest"></class>
+    <class name="co.pragra.learning.fullstackqa.b15framework.testcases.PlanPricingTest"></class>
+
+
+
+</classes>
+
+    </test>
+
+</suite>

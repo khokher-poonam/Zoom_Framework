@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="co.pragra.learning.fullstackqa.b15framework.testcases.TopNavBarTest">
+        <methods>
+          <include name="JoinMeeting"/>
+          <include name="testClickOnSupport"/>
+          <include name="testClickOnWebinarsEvents"/>
+          <include name="testClickOnFaq"/>
+          <include name="testClickOnRequestDemo"/>
+          <include name="setUp"/>
+          <include name="testClickOnLiveTraining"/>
+          <include name="testClickOnVideoTutorial"/>
+          <include name="clickOnDownloadZoom"/>
+          <include name="tearDown"/>
+          <include name="testClickOnBlog"/>
+          <include name="PlanPricing"/>
+          <include name="ContactSales"/>
+          <include name="signInTest"/>
+        </methods>
+      </class> <!-- co.pragra.learning.fullstackqa.b15framework.testcases.TopNavBarTest -->
+      <class name="co.pragra.learning.fullstackqa.b15framework.testcases.HomePageTest">
+        <methods>
+          <include name="testBroser"/>
+        </methods>
+      </class> <!-- co.pragra.learning.fullstackqa.b15framework.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
