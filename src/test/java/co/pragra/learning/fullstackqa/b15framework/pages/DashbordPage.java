@@ -7,6 +7,7 @@ public class DashbordPage {
 
     public DashbordPage(WebDriver driver) throws InterruptedException {
         this.driver = driver;
-        Thread.sleep(3000);
+        Thread.sleep(4000);
+
     }
 }
