@@ -5,8 +5,8 @@ import org.openqa.selenium.WebDriver;
 public class DashbordPage {
     public WebDriver driver;
 
-    public DashbordPage(WebDriver driver)
-    {
+    public DashbordPage(WebDriver driver) throws InterruptedException {
         this.driver = driver;
+        Thread.sleep(3000);
     }
 }
